@@ -1,0 +1,26 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{Tabla}
+\author{aleexxpf }
+\date{October 2021}
+
+\begin{document}
+
+\begin{table}[]
+\begin{tabular}{lll}
+\hline
+\multicolumn{1}{|l|}{Algoritmo}  & \multicolumn{1}{l|}{Peor Caso}                                                                                                                                            & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Orden de Complejidad \\ (tiempo, en el peor caso)\end{tabular}} \\ \hline
+\multicolumn{1}{|l|}{Inserción}  & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Cuando la lista está  ordenada \\ de manera descendente.\end{tabular}}                                                     & \multicolumn{1}{l|}{$$O(n^{2})$$}                                                           \\ \hline
+\multicolumn{1}{|l|}{Selección}  & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}No hay peor ni mejor caso,\\ siempre va a realizar las \\ mismas operaciones\end{tabular}}                                 & \multicolumn{1}{l|}{$$O(n^{2})$$}                                                           \\ \hline
+\multicolumn{1}{|l|}{Burbuja}    & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Cuando la lista está  ordenada \\ de manera descendente.\end{tabular}}                                                     & \multicolumn{1}{l|}{$$O(n^{2})$$}                                                           \\ \hline
+\multicolumn{1}{|l|}{Mezcla}     & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}No hay pero ni mejor caso, \\ siempre hace lo mismo, su \\ mayor desventaja es sobre la\\ memoria\end{tabular}}            & \multicolumn{1}{l|}{$$n \space log_2 n$$}                                                      \\ \hline
+\multicolumn{1}{|l|}{Rápido}     & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Cuando tomamos  como \\ pivote al primer o al \\ último elemento.\end{tabular}}                                            & \multicolumn{1}{l|}{$$O(n^{2})$$}                                                           \\ \hline
+\multicolumn{1}{|l|}{Bae(Radix)} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}No hay mejor ni peor caso\\ ya que siempre realizará \\ las mismas aginaciones\end{tabular}}                               & \multicolumn{1}{l|}{$$O(n)$$}                                                                                  \\ \hline
+\multicolumn{1}{|l|}{Cubeta}    & \multicolumn{1}{|l|}{\begin{tabular}[c]{@{}l@{}}Cuando hay elementos que \\ son muy aproximados entre \\ si, además cuando también \\ hay muchos elementos en una \\ sola cubeta.\end{tabular}} & \multicolumn{1}{l|}{$$O(n^{2})$$}      
+  \\ \hline
+
+\end{tabular}
+\end{table}
+
+\end{document}
